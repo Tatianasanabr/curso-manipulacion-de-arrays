@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h1>Developer tasks</h1>
+    <div id="app"></div>
+    <script>
+        const tasks = [
+            { tittle:"Prototype", status: "Done"},
+            { tittle: "Tests", status: "toDo"},
+            { tittle: "Clone", status: "Done"},
+            { tittle: "Fork", status: "toDo"},
+            { tittle: "Commit", status: "Done"},
+        ];
+
+        const tasksDone = document.getElementById("app")
+
+        tasks.forEach(task => {
+            app.innerHTML += `<li>${task.tittle} - ${task.status} <input type="checkbox"></li>`;
+        });
+    </script>
+
+</body>
+</html>
