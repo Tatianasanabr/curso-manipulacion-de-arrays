@@ -32,7 +32,7 @@ const orders = [
         delivered: false,
     },
     {
-        customerName: "Ivon",
+        customerName: "Ivón",
         total: 180,
         delivered: false,
     },
@@ -49,7 +49,7 @@ const orders = [
     {
         customerName: "Tatiana",
         total: 200,
-        delivered: true,
+        delivered: false,
     },
 ];
 
