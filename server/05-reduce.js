@@ -1,3 +1,5 @@
+//Reduce reduce mi array a un solo valor
+//Debo enviarle 2 parámetros (1. mi arrow function y 2. mi inicializador de sum (0))
 const totals = [1,2,3,4];
 
 //Sintaxis larga
